@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "NODE_ENV=localhost nodemon server.js"
+    "start": "NODE_ENV=localhost nodemon server.js",
+    "start:dev": "NODE_ENV=development nodemon server.js",
+    "start:prod": "NODE_ENV=production nodemon server.js"
   },
   "author": "",
   "license": "ISC",
